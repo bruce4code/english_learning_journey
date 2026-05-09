@@ -1,57 +1,94 @@
-# React + TypeScript + Vite
+# 英语学习之旅 English Learning Journey
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+一个简单高效的文件管理系统，帮助你记录、回顾和复习英语学习内容。
 
-Currently, two official plugins are available:
+## 📁 文件夹结构
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+```
+english_learning_journey/
+├── vocabulary/          # 单词记录 - 存放每日学习的单词
+├── sentences/          # 句子记录 - 存放每日学习的句子和表达
+├── notes/              # 笔记记录 - 存放语法知识点、学习技巧等
+├── daily/              # 每日日志 - 记录每日学习计划和总结
+└── review/             # 复习计划 - 追踪复习进度
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 🚀 快速开始
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### 1. 记录新单词
+1. 复制 `vocabulary/模板-单词记录.md`
+2. 重命名为当天日期，如 `2025-05-09.md`
+3. 填写学习内容
 
-export default tseslint.config({
-  extends: [
-    // other configs...
-    // Enable lint rules for React
-    reactX.configs['recommended-typescript'],
-    // Enable lint rules for React DOM
-    reactDom.configs.recommended,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+### 2. 记录新句子
+1. 复制 `sentences/模板-句子记录.md`
+2. 重命名为当天日期，如 `2025-05-09.md`
+3. 记录学习的句子
+
+### 3. 写学习笔记
+1. 复制 `notes/模板-笔记记录.md`
+2. 填写主题和内容
+3. 添加相关标签
+
+### 4. 每日学习总结
+1. 复制 `daily/模板-每日记录.md`
+2. 重命名为当天日期，如 `2025-05-09.md`
+3. 记录学习内容和反思
+
+## 📅 复习技巧
+
+遵循艾宾浩斯遗忘曲线：
+- **学习后第1天** → 首次复习
+- **学习后第3天** → 第二次复习
+- **学习后第7天** → 第三次复习
+- **学习后第14天** → 第四次复习
+- **学习后第30天** → 最终巩固
+
+## 🔍 快速查找
+
+### 查找特定单词
+在 `vocabulary/` 文件夹中搜索关键词
+
+### 查找特定句型
+在 `sentences/` 文件夹中搜索关键词
+
+### 查找语法笔记
+在 `notes/` 文件夹中按主题查找
+
+### 查看复习进度
+打开 `review/复习计划表.md`
+
+## 📝 命名规范
+
+| 类型 | 命名格式 | 示例 |
+|------|---------|------|
+| 单词记录 | YYYY-MM-DD.md | 2025-05-09.md |
+| 句子记录 | YYYY-MM-DD.md | 2025-05-09.md |
+| 学习笔记 | 主题-YYYY-MM-DD.md | 虚拟语气-2025-05-09.md |
+| 每日总结 | YYYY-MM-DD.md | 2025-05-09.md |
+
+## 🏷️ 标签系统
+
+建议使用的标签：
+- #新词 #复习 #口语 #写作 #听力 #阅读
+- #语法 #词根 #词缀 #同义词 #反义词
+- #CET4 #CET6 #IELTS #TOEFL #GRE
+
+## 💡 学习建议
+
+1. **每日坚持**：每天至少学习15-30分钟
+2. **及时复习**：学完新内容后立即安排复习
+3. **多读多写**：不仅是背单词，还要在句子和文章中理解
+4. **定期回顾**：每周抽出时间回顾本周学习内容
+5. **建立联系**：将新单词与已知单词或中文含义建立联系
+
+## 🎯 学习目标追踪
+
+建议在每个月的月初设定学习目标，月底进行总结：
+- 计划学习多少个新单词？
+- 计划掌握多少个新句型？
+- 计划完成多少篇阅读？
+
+---
+
+祝你学习愉快！🌟
