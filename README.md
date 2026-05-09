@@ -10,6 +10,10 @@ english_learning_journey/
 ├── sentences/          # Sentence records - phrases and expressions
 ├── notes/              # Study notes - grammar, tips, etc.
 ├── ideas/              # English thoughts - practice expressing ideas
+├── tech/               # IT English - programmer's English learning
+│   ├── notes/         # Tech knowledge notes
+│   ├── interview/     # Interview questions & answers
+│   └── vocabulary/    # IT-specific vocabulary
 ├── daily/              # Daily logs - plans and summaries
 ├── review/             # Review schedule - progress tracking
 ├── README.md          # This file
@@ -33,12 +37,19 @@ english_learning_journey/
 2. Fill in topic and content
 3. Add relevant tags
 
-### 4. Write English Thoughts
+### 5. Write English Thoughts
 1. Copy `ideas/Template.md`
 2. Rename to today's date, e.g., `2025-05-09.md`
 3. Write your thoughts in English
 
-### 5. Write Daily Summary
+### 6. IT English (For Programmers)
+1. **Tech Notes**: Copy `tech/notes/Template.md`
+2. **Interview Prep**: Copy `tech/interview/Template.md`
+3. **Tech Vocabulary**: Copy `tech/vocabulary/Template.md`
+4. Rename to relevant topic/date
+5. Record your IT English learning
+
+### 7. Write Daily Summary
 1. Copy `daily/Template.md`
 2. Rename to today's date, e.g., `2025-05-09.md`
 3. Record learning content and reflections
@@ -74,6 +85,9 @@ Open `review/Review-Schedule.md`
 | Sentences | YYYY-MM-DD.md | 2025-05-09.md |
 | Notes | Topic-YYYY-MM-DD.md | grammar-2025-05-09.md |
 | Ideas | Topic-YYYY-MM-DD.md | my-thoughts-2025-05-09.md |
+| Tech Notes | Topic-YYYY-MM-DD.md | docker-commands-2025-05-09.md |
+| Tech Interview | Company-Topic-YYYY-MM-DD.md | google-frontend-2025-05-09.md |
+| Tech Vocabulary | YYYY-MM-DD.md | 2025-05-09.md |
 | Daily Log | YYYY-MM-DD.md | 2025-05-09.md |
 
 ## 🏷️ Tag System
