@@ -9,6 +9,7 @@ english_learning_journey/
 ├── vocabulary/          # Word records - daily vocabulary
 ├── sentences/          # Sentence records - phrases and expressions
 ├── notes/              # Study notes - grammar, tips, etc.
+├── ideas/              # English thoughts - practice expressing ideas
 ├── daily/              # Daily logs - plans and summaries
 ├── review/             # Review schedule - progress tracking
 ├── README.md          # This file
@@ -32,7 +33,12 @@ english_learning_journey/
 2. Fill in topic and content
 3. Add relevant tags
 
-### 4. Write Daily Summary
+### 4. Write English Thoughts
+1. Copy `ideas/Template.md`
+2. Rename to today's date, e.g., `2025-05-09.md`
+3. Write your thoughts in English
+
+### 5. Write Daily Summary
 1. Copy `daily/Template.md`
 2. Rename to today's date, e.g., `2025-05-09.md`
 3. Record learning content and reflections
@@ -67,6 +73,7 @@ Open `review/Review-Schedule.md`
 | Vocabulary | YYYY-MM-DD.md | 2025-05-09.md |
 | Sentences | YYYY-MM-DD.md | 2025-05-09.md |
 | Notes | Topic-YYYY-MM-DD.md | grammar-2025-05-09.md |
+| Ideas | Topic-YYYY-MM-DD.md | my-thoughts-2025-05-09.md |
 | Daily Log | YYYY-MM-DD.md | 2025-05-09.md |
 
 ## 🏷️ Tag System
