@@ -1,94 +1,96 @@
-# 英语学习之旅 English Learning Journey
+# English Learning Journey
 
-一个简单高效的文件管理系统，帮助你记录、回顾和复习英语学习内容。
+A simple and efficient file management system to record, review, and reinforce your English learning.
 
-## 📁 文件夹结构
+## 📁 Folder Structure
 
 ```
 english_learning_journey/
-├── vocabulary/          # 单词记录 - 存放每日学习的单词
-├── sentences/          # 句子记录 - 存放每日学习的句子和表达
-├── notes/              # 笔记记录 - 存放语法知识点、学习技巧等
-├── daily/              # 每日日志 - 记录每日学习计划和总结
-└── review/             # 复习计划 - 追踪复习进度
+├── vocabulary/          # Word records - daily vocabulary
+├── sentences/          # Sentence records - phrases and expressions
+├── notes/              # Study notes - grammar, tips, etc.
+├── daily/              # Daily logs - plans and summaries
+├── review/             # Review schedule - progress tracking
+├── README.md          # This file
+└── search.sh          # Search tool
 ```
 
-## 🚀 快速开始
+## 🚀 Quick Start
 
-### 1. 记录新单词
-1. 复制 `vocabulary/模板-单词记录.md`
-2. 重命名为当天日期，如 `2025-05-09.md`
-3. 填写学习内容
+### 1. Record New Vocabulary
+1. Copy `vocabulary/Template.md`
+2. Rename to today's date, e.g., `2025-05-09.md`
+3. Fill in your learning content
 
-### 2. 记录新句子
-1. 复制 `sentences/模板-句子记录.md`
-2. 重命名为当天日期，如 `2025-05-09.md`
-3. 记录学习的句子
+### 2. Record New Sentences
+1. Copy `sentences/Template.md`
+2. Rename to today's date, e.g., `2025-05-09.md`
+3. Record sentences you learned
 
-### 3. 写学习笔记
-1. 复制 `notes/模板-笔记记录.md`
-2. 填写主题和内容
-3. 添加相关标签
+### 3. Take Study Notes
+1. Copy `notes/Template.md`
+2. Fill in topic and content
+3. Add relevant tags
 
-### 4. 每日学习总结
-1. 复制 `daily/模板-每日记录.md`
-2. 重命名为当天日期，如 `2025-05-09.md`
-3. 记录学习内容和反思
+### 4. Write Daily Summary
+1. Copy `daily/Template.md`
+2. Rename to today's date, e.g., `2025-05-09.md`
+3. Record learning content and reflections
 
-## 📅 复习技巧
+## 📅 Review Tips
 
-遵循艾宾浩斯遗忘曲线：
-- **学习后第1天** → 首次复习
-- **学习后第3天** → 第二次复习
-- **学习后第7天** → 第三次复习
-- **学习后第14天** → 第四次复习
-- **学习后第30天** → 最终巩固
+Follow the Ebbinghaus forgetting curve:
+- **Day 1** → First review
+- **Day 3** → Second review
+- **Day 7** → Third review
+- **Day 14** → Fourth review
+- **Day 30** → Final reinforcement
 
-## 🔍 快速查找
+## 🔍 Quick Search
 
-### 查找特定单词
-在 `vocabulary/` 文件夹中搜索关键词
+### Search for a specific word
+Search in `vocabulary/` folder
 
-### 查找特定句型
-在 `sentences/` 文件夹中搜索关键词
+### Search for a specific phrase
+Search in `sentences/` folder
 
-### 查找语法笔记
-在 `notes/` 文件夹中按主题查找
+### Search for grammar notes
+Search in `notes/` folder by topic
 
-### 查看复习进度
-打开 `review/复习计划表.md`
+### Check review progress
+Open `review/Review-Schedule.md`
 
-## 📝 命名规范
+## 📝 Naming Convention
 
-| 类型 | 命名格式 | 示例 |
-|------|---------|------|
-| 单词记录 | YYYY-MM-DD.md | 2025-05-09.md |
-| 句子记录 | YYYY-MM-DD.md | 2025-05-09.md |
-| 学习笔记 | 主题-YYYY-MM-DD.md | 虚拟语气-2025-05-09.md |
-| 每日总结 | YYYY-MM-DD.md | 2025-05-09.md |
+| Type | Format | Example |
+|------|--------|---------|
+| Vocabulary | YYYY-MM-DD.md | 2025-05-09.md |
+| Sentences | YYYY-MM-DD.md | 2025-05-09.md |
+| Notes | Topic-YYYY-MM-DD.md | grammar-2025-05-09.md |
+| Daily Log | YYYY-MM-DD.md | 2025-05-09.md |
 
-## 🏷️ 标签系统
+## 🏷️ Tag System
 
-建议使用的标签：
-- #新词 #复习 #口语 #写作 #听力 #阅读
-- #语法 #词根 #词缀 #同义词 #反义词
-- #CET4 #CET6 #IELTS #TOEFL #GRE
+Recommended tags:
+- #newword #review #spoken #writing #listening #reading
+- #grammar #root #prefix #suffix #synonym #antonym
+- #IELTS #TOEFL #CET4 #CET6 #GRE
 
-## 💡 学习建议
+## 💡 Learning Tips
 
-1. **每日坚持**：每天至少学习15-30分钟
-2. **及时复习**：学完新内容后立即安排复习
-3. **多读多写**：不仅是背单词，还要在句子和文章中理解
-4. **定期回顾**：每周抽出时间回顾本周学习内容
-5. **建立联系**：将新单词与已知单词或中文含义建立联系
+1. **Daily Consistency**: Study at least 15-30 minutes every day
+2. **Timely Review**: Schedule reviews immediately after learning new content
+3. **Read & Write**: Don't just memorize words; understand them in sentences and context
+4. **Regular Review**: Set aside time weekly to review the week's content
+5. **Make Connections**: Link new words to known words or Chinese meanings
 
-## 🎯 学习目标追踪
+## 🎯 Goal Tracking
 
-建议在每个月的月初设定学习目标，月底进行总结：
-- 计划学习多少个新单词？
-- 计划掌握多少个新句型？
-- 计划完成多少篇阅读？
+Set learning goals at the beginning of each month and review at the end:
+- How many new words to learn?
+- How many new sentence patterns to master?
+- How many articles to read?
 
 ---
 
-祝你学习愉快！🌟
+Happy learning! 🌟
