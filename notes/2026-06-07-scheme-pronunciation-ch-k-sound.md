@@ -60,6 +60,45 @@ Considered from a wide or long-term perspective; in the overall view of life/the
 
 ---
 
+## 2b. Scheme vs Schema
+
+### Scheme
+- **Pronunciation**: /skiːm/
+- **Chinese Meaning**: 计划；阴谋；方案
+- **Common uses**:
+  - "The government introduced a new housing scheme."
+  - "It was just another get-rich-quick scheme."
+  - "They worked out a scheme to escape."
+- **Connotation**: Often neutral or negative
+
+### Schema
+- **Pronunciation**: /ˈskiːmə/
+- **Chinese Meaning**: 架构；模式；图解（认知科学中的“图式”）
+- **Common uses**:
+  - In **cognitive science**: A mental framework for organizing information and understanding
+  - In **database**: A structure that defines how data is organized
+  - In **XML/JSON**: A specification for data format
+- **Connotation**: Formal, technical
+- **Examples**:
+  - "Children develop schemas for understanding the world."
+  - "The database schema defines the tables and their relationships."
+  - "We need to update the XML schema."
+
+### Quick Comparison (Scheme vs Schema)
+
+| Word | Pronunciation | Meaning & Context |
+|------|---------------|-------------------|
+| **Scheme** | /skiːm/ | Plan (often secretive or negative); everyday English |
+| **Schema** | /ˈskiːmə/ | Mental model; database/data structure; technical |
+
+### "Schema" in Tech/Programming
+- **Database schema**: Defines tables, columns, relationships
+- **JSON schema**: Validates JSON data structure
+- **XML schema**: Defines XML document structure
+- **Cognitive schema**: Mental model (psychological term)
+
+---
+
 ## 3. Why "scheme" is pronounced /skiːm/ (ch = /k/)
 
 ### The Rule: Greek Origin Words with "ch" = /k/
